@@ -1,0 +1,34 @@
+@media screen and (max-width:768px) {
+    section {
+        display: block;
+    }
+
+    .left, .right {
+        width: 100vw;
+        border: none;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left h1, p {
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .left h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .left p {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
