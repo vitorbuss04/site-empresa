@@ -27,13 +27,13 @@ html::-webkit-scrollbar-track {
 }
 
 body {
-    height: 1100vh;
+    height: 100vh;
     width: 99.5vw;
-    background-color: #bab9bd;
+    background-color: #4e4e50;
 }
 
 header {
-    background-color: #7e7e7e94;
+    background-color: #d1d1d194;
     backdrop-filter: blur(7px);
     border-bottom: 2px solid #929292;
     padding: 10px;
@@ -60,8 +60,35 @@ nav .LinkHeader {
     color: #202020;
 }
 
-.img-inicio {
-    width: 100%;
+.bginicio {
+    background-image: url(img/inicio-pc.png);
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bginicio h1 {
+    margin-left: 100px;
+    font-size: 3.5em;
+    font-family: 'Poppins', sans-serif;
+    color: #31b131;
+    width: 400px;
+    text-align: left;
+}
+
+.bginicio p {
+    margin-left: 100px;
+    font-family: 'Poppins',sans-serif;
+    color: #31b131;
+    width: 500px;
+}
+
+section {
+    display: flex;
 }
 
 .filter {
@@ -82,6 +109,7 @@ nav .LinkHeader {
 .left, .right h1 {
     font-family: 'Oleo Script', cursive;
     font-weight: normal;
+    font-size: 1.5em;
 }
 
 .left {
@@ -102,4 +130,106 @@ nav .LinkHeader {
 
 .right {
     border-left: 1px solid white;
+    background-image: url(img/Torta_de_limao.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 15px;
+
+    text-align: center;
+
+    font-family: 'Oleo Script', cursive;
+  
+}
+
+.why {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    padding-top: 40px;
+    background-color: white;
+}
+
+.why h1 {
+    width: 75vw;
+    font-family: 'Poppins', cursive;
+}
+
+.why p {
+    width: 75vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.motivos {
+    width: 90vw;
+    background-color: white;
+
+    margin-top: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.mleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.mright {
+    display: flex;
+    flex-direction: column;
+}
+
+.motivo span {
+    text-align: left;
+    display: block;
+    margin: 10px 0;
+    color: #1a44ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+.motivo h2 {
+    text-align: left;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+.motivo p {
+    width: 500px;
+    text-align: left;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+
+}
+
+.motivo02, .motivo04 {
+    border-top: 1px solid rgb(88, 88, 88);
+    padding-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    line-height: 1.5em;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    font-family: 'Poppins';
 }
